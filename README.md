@@ -1,4 +1,3 @@
-[![Udacity - Robotics NanoDegree Program](https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png)](https://www.udacity.com/robotics)
 # Home Service Robot
 
 The goal of this project is to build and program a robot which can autonomously map an environment and navigate to pick up and drop off virtual objects.
