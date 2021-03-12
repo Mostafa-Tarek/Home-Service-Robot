@@ -1,6 +1,6 @@
 # Home Service Robot
 
-The goal of this project is to build and program a robot which can autonomously map an environment and navigate to pick up and drop off virtual objects.
+The goal of this project is to build and program a robot which can autonomously map an environment and navigate to pick up and drop off virtual objects using search algorithm.
 
 
 # Project Setup
