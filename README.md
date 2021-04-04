@@ -32,7 +32,7 @@ $ source devel/setup.bash
 $ catkin_make
 Run ./home_service.sh in ShellScripts directory to deploy the home service robot.
 ```
-#####***In this project to simulate a home service robot:***
+##### ***In this project to simulate a home service robot:***
 * 1. Design a simple environment with the `Building Editor` in Gazebo.
 * 2. Drive my robot using `turtlebot_pkg` and manually test SLAM `slam_gmapping pkg` using shell script test_slam.sh
 * 3. Use the ROS `navigation stack` and manually commands your robot using the 2D Nav Goal arrow in rviz to move to 2 different desired positions and orientations using shell script test_navgation.sh
