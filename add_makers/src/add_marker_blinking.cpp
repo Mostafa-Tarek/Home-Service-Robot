@@ -68,7 +68,7 @@ while (ros::ok()){
     marker.pose.position.x = 7.2099;
     marker.pose.position.y = 5.75;
     marker.pose.position.z = 0.0;
-    marker.pose.orientation.z = -0.72;
+    marker.pose.orientation.z = 1.0;
     marker.pose.orientation.w = 1.0;
     marker_pub.publish(marker);
    sleep(10);
