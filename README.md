@@ -67,7 +67,7 @@ catkin_ws/src
     │   ├── src/pick_objects.cpp
     │   ├── ...
     ├──add_markers                     # add_marker C++ node
-    │   ├── src/add_markers.cpp
-    │   ├── ...
+    │   ├── src/add_makers.cpp
+    │   ├── src/add_marker_blinking.cpp
     └──
 ```
