@@ -14,7 +14,19 @@ int main( int argc, char** argv )
 uint32_t shape = visualization_msgs::Marker::CUBE;
 bool carry_up=true;
 bool pick_up= true;
-
+  //this solve the problem  pickup marker does not appear
+while (marker_pub.getNumSubscribers() < 1)
+    {
+      if (!ros::ok())
+      {
+        return 0;
+      }
+      ROS_WARN_ONCE("Please create a subscriber to the marker");
+      sleep(1);
+    }
+  /*
+  or sleep(5)
+  */
     visualization_msgs::Marker marker;
     // Set the frame ID and timestamp.  See the TF tutorials for information on these.
     marker.header.frame_id = "/map";
